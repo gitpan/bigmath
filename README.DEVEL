@@ -1,0 +1,15 @@
+	perl Makefile.PL
+	make
+	make test
+	make manifest
+        make dist
+
+go to http://pause.perl.org
+Login on left bar as JPR
+then left bar: "Upload a file to CPAN"
+ - Buttons "Browse" + "upload this file from my disk"
+
+New version:
+    count $VERSION in lib/Math/GoldenBigMath.pm up
+    start from top
+
